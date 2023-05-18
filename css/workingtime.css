@@ -1,0 +1,156 @@
+.v-app {
+    font-family: Cantarell, Helvetica, Arial !important;
+    background: none !important;
+}
+
+/* Hide profile picture */
+img {
+    height: 0;
+}
+
+/* Time worked */
+.v-formlayout-lastrow {
+    display: block;
+}
+
+.v-verticallayout.v-layout.v-vertical.v-widget.v-has-width.v-margin-right.v-margin-bottom div.v-horizontallayout:first-child:not(.toolbar) {
+    display: none;
+}
+
+
+.v-widget {
+    display: inline-block;
+}
+
+.v-calendar {
+    background-color: white;
+}
+
+/* BOMS title */
+.v-label-h2 {
+    display: none;
+}
+
+/* Hello message */
+.v-align-middle > .v-label-h2 {
+    font-size: 60px;
+    text-align: right !important;
+}
+
+.v-panel {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Time worked -table */
+.v-grid-tablewrapper {
+    border: none !important;
+
+}
+
+.v-grid {
+    background: none !important;
+}
+
+.v-grid-row > td{
+    border: none !important;
+    font-size: 16px !important;
+
+}
+
+th {
+    border: none !important;
+    background-color: white !important;
+    background-image: none !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+tfoot {
+    display: none;
+}
+
+/* Left side menu */
+.valo-menu {
+    margin-left: -125px;
+    transition: 0.15s;
+    background-image: none !important;
+    background-color: #105191e0 !important;
+}
+
+.valo-menu:hover {
+    margin-left: 0px;
+}
+
+.valo-menu-subtitle {
+    border: none !important;
+}
+
+.valo-menu:hover > .valo-menu-part > .valo-menu-subtitle {
+    border-bottom: 1px solid #95a6c4 !important;
+}
+
+.selected {
+    background: none !important;
+}
+
+.valo-menu:hover > .valo-menu-part > .valo-menu-item-selected {
+    background: #125394db !important;
+}
+
+.v-button {
+    background: none !important;
+    box-shadow: none !important;
+    border-radius: 10px !important;
+}
+
+.v-button-small {
+    height: 30px !important;
+    border-radius: 10px !important;
+}
+
+.v-button:active::after,
+.v-button:hover::after{
+    background: none !important;
+}
+
+.v-button:focus::after {
+    box-shadow: none !important;
+}
+
+.v-panel {
+    border: none !important;
+}
+
+.v-panel-captionwrap {
+    display: none;
+}
+
+.v-grid-sidebar-button {
+    display: none;
+}
+
+.v-button-primary {
+    background-color: #125394db !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.v-button-start-work {
+        display: none !important;
+
+}
+
+.v-button-stop-work {
+    display: none !important;
+}
+
+.v-select-select {
+    background: none !important;
+    border-radius: 10px !important;
+}
+
+.v-grid-row-focused > td {
+    background: none !important;
+    background-color: #125394db !important;
+}
