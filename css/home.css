@@ -127,7 +127,7 @@ th {
 
 .v-button-start-work {
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: -270px;
     background-image: linear-gradient(to top, white, #fff0) !important;
     opacity: 1;
@@ -140,10 +140,10 @@ th {
 
 .v-button-stop-work {
     position: absolute;
-    top: -60px;
+    top: -55px;
     left: -274px;
     background-image: linear-gradient(to top, white, #fff0) !important;
-    opacity: 0;
+    opacity: 1;
     transition: 0.4s !important;
 }
 
