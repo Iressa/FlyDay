@@ -1,0 +1,149 @@
+.v-app {
+    font-family: Cantarell, Helvetica, Arial !important;
+    background: none !important;
+}
+
+/* Hide profile picture */
+img {
+    height: 0;
+}
+
+/* Time worked */
+.v-formlayout-lastrow {
+    display: block;
+}
+
+.v-formlayout-lastrow > .v-formlayout-contentcell > .v-label-large {
+    font-size: 120px;
+}
+
+/* BOMS title */
+.v-label-h2 {
+    display: none;
+}
+
+/* Hello message */
+.v-align-middle > .v-label-h2 {
+    font-size: 60px;
+    text-align: right !important;
+}
+
+.v-panel {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Time worked -table */
+.v-grid-tablewrapper {
+    border: none !important;
+
+}
+
+.v-grid {
+    background: none !important;
+}
+
+.v-grid-row > td{
+    border: none !important;
+    font-size: 16px !important;
+
+}
+
+th {
+    border: none !important;
+    background-color: white !important;
+    background-image: none !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+tfoot {
+    display: none;
+}
+
+/* Left side menu */
+.valo-menu {
+    margin-left: -125px;
+    transition: 0.15s;
+    background-image: none !important;
+    background-color: #105191e0 !important;
+}
+
+.valo-menu:hover {
+    margin-left: 0px;
+}
+
+.valo-menu-subtitle {
+    border: none !important;
+}
+
+.valo-menu:hover > .valo-menu-part > .valo-menu-subtitle {
+    border-bottom: 1px solid #95a6c4 !important;
+}
+
+.selected {
+    background: none !important;
+}
+
+.valo-menu:hover > .valo-menu-part > .valo-menu-item-selected {
+    background: #125394db !important;
+}
+
+.v-button {
+    /* border-radius: 100px !important; */
+    background: none !important;
+
+    box-shadow: none !important;
+}
+
+.v-button:active::after,
+.v-button:hover::after{
+    background: none !important;
+}
+
+.v-button:focus::after {
+    box-shadow: none !important;
+}
+
+.v-panel {
+    border: none !important;
+}
+
+.v-panel-captionwrap {
+    display: none;
+}
+
+.v-grid-sidebar-button {
+    display: none;
+}
+
+.v-button-primary {
+    background-color: #125394db !important;
+    border: none !important;
+}
+
+.v-button-start-work {
+    position: absolute;
+    top: 50px;
+    left: -270px;
+    background-image: linear-gradient(to top, white, #fff0) !important;
+    opacity: 1;
+    transition: 0.4s !important;
+}
+
+.v-button-start-work:hover {
+    opacity: 0;
+}
+
+.v-button-stop-work {
+    position: absolute;
+    top: -60px;
+    left: -274px;
+    background-image: linear-gradient(to top, white, #fff0) !important;
+    opacity: 0;
+    transition: 0.4s !important;
+}
+
+.v-button-stop-work:hover {
+    opacity: 1;
+}
