@@ -70,6 +70,23 @@ tfoot {
     display: none;
 }
 
+/* Edit working time entry */
+td > .v-caption-hasdescription {
+    width: 30px;
+}
+
+.v-formlayout-firstrow {
+    display: flex;
+}
+
+.v-formlayout-lastrow {
+    display: flex;
+}
+
+.v-window.v-widget.v-has-width .popupContent .v-window-wrap .v-window-contents .v-scrollable .v-verticallayout.v-layout.v-vertical.v-widget.v-has-width.v-margin-top.v-margin-right.v-margin-bottom.v-margin-left .v-slot .v-horizontallayout {
+    display: inline-block;
+}
+
 /* Left side menu */
 .valo-menu {
     margin-left: -125px;
